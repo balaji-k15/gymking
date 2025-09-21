@@ -29,8 +29,8 @@ const TrainersSection = () => {
   };
 
   return (
-    <section className="py-20 bg-gym-darker">
-      <div className="container mx-auto px-4">
+      <section className="py-24 bg-gym-darker">
+        <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="text-primary font-semibold text-lg mb-4">MEET OUR TEAM</div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

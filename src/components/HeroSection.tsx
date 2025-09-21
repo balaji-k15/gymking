@@ -38,11 +38,11 @@ const HeroSection = () => {
             Professional trainers, state-of-the-art equipment, and a community that supports your goals.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up">
+          <div className="flex flex-col sm:flex-row gap-6 animate-fade-in-up">
             <Button 
               onClick={handleJoinNow}
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-white px-8 py-3 text-lg hover-lift glow-effect"
+              className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg hover-lift glow-effect font-semibold"
             >
               JOIN NOW - 50% OFF
             </Button>
@@ -50,7 +50,7 @@ const HeroSection = () => {
               onClick={handleWatchVideo}
               variant="outline" 
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-gym-dark px-8 py-3 text-lg"
+              className="border-2 border-white text-white hover:bg-white hover:text-gym-dark px-8 py-4 text-lg font-semibold"
             >
               WATCH VIDEO
             </Button>

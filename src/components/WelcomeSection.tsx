@@ -11,9 +11,9 @@ const WelcomeSection = () => {
   };
 
   return (
-    <section className="py-20 bg-gym-card">
+    <section className="py-24 bg-gym-card">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div className="space-y-8">
             <div>
@@ -62,25 +62,25 @@ const WelcomeSection = () => {
               </div>
             </div>
 
-            {/* Call to Actions */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                onClick={handleJoinNow}
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 text-white px-8 py-3 text-lg hover-lift glow-effect"
-              >
-                START YOUR JOURNEY
-              </Button>
-              <Button 
-                onClick={handleWatchVideo}
-                variant="outline" 
-                size="lg"
-                className="border-2 border-white text-white hover:bg-white hover:text-gym-dark px-8 py-3 text-lg flex items-center space-x-2"
-              >
-                <Play className="w-5 h-5" />
-                <span>WATCH OUR STORY</span>
-              </Button>
-            </div>
+          {/* Call to Actions */}
+          <div className="flex flex-col sm:flex-row gap-6 pt-4">
+            <Button 
+              onClick={handleJoinNow}
+              size="lg" 
+              className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg hover-lift glow-effect font-semibold"
+            >
+              START YOUR JOURNEY
+            </Button>
+            <Button 
+              onClick={handleWatchVideo}
+              variant="outline" 
+              size="lg"
+              className="border-2 border-white text-white hover:bg-white hover:text-gym-dark px-8 py-4 text-lg font-semibold flex items-center space-x-2"
+            >
+              <Play className="w-5 h-5" />
+              <span>WATCH OUR STORY</span>
+            </Button>
+          </div>
           </div>
 
           {/* Visual Element */}

@@ -101,7 +101,7 @@ const WorkingHours = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center">
             <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-white text-2xl">⭐</span>
