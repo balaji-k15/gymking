@@ -188,49 +188,48 @@ const Contact = () => {
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
-                    <div>
-                      <h3 className="text-white font-semibold mb-1">Phone</h3>
-                      <p className="text-gray-300">+91 98765 43210</p>
-                      <p className="text-gray-300">+91 87654 32109</p>
-                      <Button
-                        onClick={handleCall}
-                        className="mt-2 bg-primary hover:bg-primary/90 text-white px-4 py-2 text-sm"
-                      >
-                        CALL NOW
-                      </Button>
-                    </div>
+                     <div>
+                       <h3 className="text-white font-semibold mb-1">Phone</h3>
+                       <p className="text-gray-300">+91 44 2815 4567</p>
+                       <p className="text-gray-300">+91 44 2815 4568</p>
+                       <Button
+                         onClick={handleCall}
+                         className="mt-2 bg-primary hover:bg-primary/90 text-white px-4 py-2 text-sm"
+                       >
+                         CALL NOW
+                       </Button>
+                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
-                    <div>
-                      <h3 className="text-white font-semibold mb-1">Email</h3>
-                      <p className="text-gray-300">info@gymster.in</p>
-                      <p className="text-gray-300">support@gymster.in</p>
-                      <Button
-                        onClick={handleEmail}
-                        className="mt-2 bg-primary hover:bg-primary/90 text-white px-4 py-2 text-sm"
-                      >
-                        SEND EMAIL
-                      </Button>
-                    </div>
+                     <div>
+                       <h3 className="text-white font-semibold mb-1">Email</h3>
+                       <p className="text-gray-300">info@gymster-chennai.com</p>
+                       <p className="text-gray-300">support@gymster-chennai.com</p>
+                       <Button
+                         onClick={handleEmail}
+                         className="mt-2 bg-primary hover:bg-primary/90 text-white px-4 py-2 text-sm"
+                       >
+                         SEND EMAIL
+                       </Button>
+                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-6 h-6 text-white" />
                     </div>
-                    <div>
-                      <h3 className="text-white font-semibold mb-1">Address</h3>
-                      <p className="text-gray-300">
-                        123 Fitness Street,<br />
-                        Bandra West, Mumbai,<br />
-                        Maharashtra 400050<br />
-                        India
-                      </p>
-                    </div>
+                     <div>
+                       <h3 className="text-white font-semibold mb-1">Address</h3>
+                       <p className="text-gray-300">
+                         No. 45, Anna Salai, T. Nagar,<br />
+                         Chennai, Tamil Nadu 600017<br />
+                         India
+                       </p>
+                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
@@ -304,7 +303,7 @@ const Contact = () => {
             
             <div className="bg-gym-darker rounded-xl p-6">
               <h3 className="text-lg font-semibold text-white mb-3">What are your membership plans?</h3>
-              <p className="text-gray-300 text-sm">We offer monthly (₹2,499), quarterly (₹6,999), and yearly (₹19,999) plans with 50% discount currently available.</p>
+              <p className="text-gray-300 text-sm">We offer monthly (₹2,499), quarterly (₹6,999), and yearly (₹14,999) plans with 50% discount currently available.</p>
             </div>
             
             <div className="bg-gym-darker rounded-xl p-6">

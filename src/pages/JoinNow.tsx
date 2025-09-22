@@ -41,8 +41,8 @@ const JoinNow = () => {
     {
       id: "yearly",
       name: "YEARLY",
-      originalPrice: 39999,
-      discountedPrice: 19999,
+      originalPrice: 29999,
+      discountedPrice: 14999,
       features: [
         "All Quarterly features",
         "Unlimited personal training",
@@ -88,7 +88,7 @@ const JoinNow = () => {
           </button>
           
           <div className="text-center max-w-4xl mx-auto">
-            <div className="text-primary font-semibold text-lg mb-4">LIMITED TIME OFFER</div>
+            <div className="text-primary font-semibold text-lg mb-4">2025 NEW YEAR SPECIAL</div>
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               JOIN GYMSTER TODAY
             </h1>

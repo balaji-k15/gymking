@@ -61,18 +61,18 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <span className="text-gray-300">+91 98765 43210</span>
+                <span className="text-gray-300">+91 44 2815 4567</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary" />
-                <span className="text-gray-300">info@gymster.in</span>
+                <span className="text-gray-300">info@gymster-chennai.com</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary mt-1" />
                 <span className="text-gray-300">
-                  123 Fitness Street,<br />
-                  Mumbai, Maharashtra<br />
-                  India - 400001
+                  No. 45, Anna Salai, T. Nagar,<br />
+                  Chennai, Tamil Nadu<br />
+                  India - 600017
                 </span>
               </div>
             </div>
@@ -102,7 +102,7 @@ const Footer = () => {
               <div className="space-y-2">
                 <div className="text-gray-300">Monthly: <span className="text-primary font-semibold">₹2,499</span></div>
                 <div className="text-gray-300">Quarterly: <span className="text-primary font-semibold">₹6,999</span></div>
-                <div className="text-gray-300">Yearly: <span className="text-primary font-semibold">₹19,999</span></div>
+                <div className="text-gray-300">Yearly: <span className="text-primary font-semibold">₹14,999</span></div>
                 <div className="text-xs text-primary">*50% OFF on all plans this month!</div>
               </div>
             </div>
@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="border-t border-gym-card pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 GYMSTER. All rights reserved.
+              © 2025 GYMSTER. All rights reserved.
             </div>
             <div className="text-gray-400 text-sm">
               Designed by <span className="text-primary font-semibold">BALAJI KETHA</span>

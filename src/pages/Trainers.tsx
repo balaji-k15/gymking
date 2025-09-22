@@ -5,6 +5,12 @@ import { Award, Clock, Users, Star } from "lucide-react";
 import trainer1 from "@/assets/trainer-1.jpg";
 import trainer2 from "@/assets/trainer-2.jpg";
 import trainer3 from "@/assets/trainer-3.jpg";
+import trainerDeepak from "@/assets/trainer-deepak.jpg";
+import trainerKavya from "@/assets/trainer-kavya.jpg";
+import trainerRohit from "@/assets/trainer-rohit.jpg";
+import trainerSunita from "@/assets/trainer-sunita.jpg";
+import trainerArjun from "@/assets/trainer-arjun.jpg";
+import trainerMeera from "@/assets/trainer-meera.jpg";
 
 const Trainers = () => {
   const handleBookTrainer = (trainerName: string) => {
@@ -52,37 +58,43 @@ const Trainers = () => {
       name: "DEEPAK MEHTA",
       specialization: "Functional Training",
       experience: "6+ Years",
-      rating: 4.7
+      rating: 4.7,
+      image: trainerDeepak
     },
     {
       name: "KAVYA REDDY", 
       specialization: "Pilates & Core Training",
       experience: "5+ Years",
-      rating: 4.8
+      rating: 4.8,
+      image: trainerKavya
     },
     {
       name: "ROHIT SHARMA",
       specialization: "HIIT & CrossFit",
       experience: "7+ Years", 
-      rating: 4.6
+      rating: 4.6,
+      image: trainerRohit
     },
     {
       name: "SUNITA DEVI",
       specialization: "Senior Fitness & Rehabilitation",
       experience: "9+ Years",
-      rating: 4.9
+      rating: 4.9,
+      image: trainerSunita
     },
     {
       name: "ARJUN KAPOOR",
       specialization: "Boxing & Martial Arts",
       experience: "8+ Years",
-      rating: 4.7
+      rating: 4.7,
+      image: trainerArjun
     },
     {
       name: "MEERA NAIR",
       specialization: "Aqua Fitness & Swimming",
       experience: "4+ Years",
-      rating: 4.8
+      rating: 4.8,
+      image: trainerMeera
     }
   ];
 
@@ -195,30 +207,40 @@ const Trainers = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {allTrainers.map((trainer, index) => (
-              <div key={index} className="bg-gym-darker rounded-xl p-6 hover-lift">
-                <div className="flex items-center justify-between mb-4">
-                  <div>
-                    <h3 className="text-lg font-bold text-white">{trainer.name}</h3>
-                    <p className="text-primary text-sm">{trainer.specialization}</p>
-                  </div>
-                  <div className="flex items-center space-x-1">
-                    <Star className="w-4 h-4 text-yellow-400 fill-current" />
-                    <span className="text-white font-semibold text-sm">{trainer.rating}</span>
+              <div key={index} className="bg-gym-darker rounded-xl overflow-hidden hover-lift">
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src={trainer.image}
+                    alt={trainer.name}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                  />
+                  <div className="absolute top-4 right-4 bg-primary px-2 py-1 rounded-full flex items-center space-x-1">
+                    <Star className="w-3 h-3 text-white fill-current" />
+                    <span className="text-white font-semibold text-xs">{trainer.rating}</span>
                   </div>
                 </div>
                 
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-1">
-                    <Award className="w-4 h-4 text-primary" />
-                    <span className="text-gray-400 text-sm">{trainer.experience}</span>
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <div>
+                      <h3 className="text-lg font-bold text-white">{trainer.name}</h3>
+                      <p className="text-primary text-sm">{trainer.specialization}</p>
+                    </div>
                   </div>
-                  <Button
-                    onClick={() => handleBookTrainer(trainer.name)}
-                    size="sm"
-                    className="bg-primary hover:bg-primary/90 text-white px-4 py-1 text-sm"
-                  >
-                    BOOK
-                  </Button>
+                  
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-1">
+                      <Award className="w-4 h-4 text-primary" />
+                      <span className="text-gray-400 text-sm">{trainer.experience}</span>
+                    </div>
+                    <Button
+                      onClick={() => handleBookTrainer(trainer.name)}
+                      size="sm"
+                      className="bg-primary hover:bg-primary/90 text-white px-4 py-1 text-sm"
+                    >
+                      BOOK
+                    </Button>
+                  </div>
                 </div>
               </div>
             ))}

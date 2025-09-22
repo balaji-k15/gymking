@@ -63,19 +63,19 @@ const HeroSection = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="bg-gym-card/80 backdrop-blur-sm rounded-lg p-4 text-center hover-lift">
-              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">12345</div>
-              <div className="text-white text-sm">EXPERIENCE</div>
+              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">12</div>
+              <div className="text-white text-sm">YEARS EXPERIENCE</div>
             </div>
             <div className="bg-gym-card/80 backdrop-blur-sm rounded-lg p-4 text-center hover-lift">
-              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">12345</div>
+              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">20</div>
               <div className="text-white text-sm">OUR TRAINERS</div>
             </div>
             <div className="bg-gym-card/80 backdrop-blur-sm rounded-lg p-4 text-center hover-lift">
-              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">12345</div>
-              <div className="text-white text-sm">COMPLETE PROJECT</div>
+              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">100+</div>
+              <div className="text-white text-sm">COMPLETE PROJECTS</div>
             </div>
             <div className="bg-gym-card/80 backdrop-blur-sm rounded-lg p-4 text-center hover-lift">
-              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">12345</div>
+              <div className="text-2xl md:text-3xl font-bold text-primary counter-animation">1000+</div>
               <div className="text-white text-sm">HAPPY CLIENTS</div>
             </div>
           </div>
